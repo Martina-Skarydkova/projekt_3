@@ -1,11 +1,11 @@
 # Projekt 3-  Výsledky voleb 2017 – Extrakce dat z volby.cz
-Třetí projket na Python Akademii od Engeta
+Třetí projekt na Python Akademii od Engeta
 ## Popis projektu
-Tento projekt slouží k extrahování výsledků z parlamentních voleb v roce 2017. Odkaz prohlédnutí najdete [zde](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)
+Tento projekt slouží k extrahování výsledků z parlamentních voleb v roce 2017. Odkaz k prohlédnutí najdete [zde](https://www.volby.cz/pls/ps2017nss/ps3?xjazyk=CZ)
 ## Instalace knihoven
 Knihovny, které jsou použity v kódu jsou uložené v souboru ```requirements.txt```. Pro instalaci doporučuji použít nové virtuální prostředí s nainstalovaným manažerem a spustit následovně:
 ```
-$ pip3 --version                   # ověrim verzi manazeru
+$ pip3 --version                   # ověřím verzi manažeru
 $ pip3 install -r requirments.txt  # nainstalujeme knihovny
 ```
 # Spuštění projektu
@@ -13,7 +13,7 @@ Spuštění souboru ```elections_scraper.py``` v rámci příkazového řádku p
 ```
 python elections_scraper.py <odkaz-uzemniho-celku> <vysledny-soubor>
 ```
-Následně se vám stáhnou výsledky jso soubor s příponou ```.csv```
+Následně se vám stáhnou výsledky jako soubor s příponou ```.csv```
 # Ukázka projektu
 Výsledky hlasování pro okres Benešov:
 1. argument: ```https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=2&xnumnuts=2101```
