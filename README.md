@@ -6,7 +6,7 @@ Tento projekt slouží k extrahování výsledků z parlamentních voleb v roce 
 Knihovny, které jsou použity v kódu jsou uložené v souboru ```requirements.txt```. Pro instalaci doporučuji použít nové virtuální prostředí s nainstalovaným manažerem a spustit následovně:
 ```
 $ pip3 --version                   # ověrim verzi manazeru
-$ pip3 install -r requirments.txt  # nainstalumeme knihovny
+$ pip3 install -r requirments.txt  # nainstalujeme knihovny
 ```
 # Spuštění projektu
 Spuštění souboru ```elections_scraper.py``` v rámci příkazového řádku požaduje dva povinné argumenty:
